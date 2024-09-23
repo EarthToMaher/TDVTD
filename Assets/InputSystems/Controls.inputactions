@@ -84,7 +84,7 @@
                 {
                     "name": "up",
                     "id": "86c0af44-2adf-46e3-87c4-275cf0c60423",
-                    "path": "<Keyboard>/w",
+                    "path": "<Joystick>/stick/up",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -95,7 +95,7 @@
                 {
                     "name": "down",
                     "id": "a40de80d-6583-48cd-bb4e-5b6178767887",
-                    "path": "<Keyboard>/s",
+                    "path": "<Joystick>/stick/down",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -106,7 +106,7 @@
                 {
                     "name": "left",
                     "id": "9cda8cc6-efc7-4aef-9319-e0927324db9e",
-                    "path": "<Keyboard>/a",
+                    "path": "<Joystick>/stick/left",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -117,7 +117,7 @@
                 {
                     "name": "right",
                     "id": "b41bca3c-5c44-4047-99ad-70ce1320d1f2",
-                    "path": "<Keyboard>/d",
+                    "path": "<Joystick>/stick/right",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -165,50 +165,6 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Controller1;Controller0",
-                    "action": "Movement",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "down",
-                    "id": "f0e331da-46fe-4398-8bde-b34c19df1143",
-                    "path": "<Gamepad>/dpad/down",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Movement",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "up",
-                    "id": "f94d2868-9118-40d2-9590-7902cacc1593",
-                    "path": "<Gamepad>/dpad/up",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Movement",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "left",
-                    "id": "88ba1a72-b6a0-4e34-ad0d-998eb03a386a",
-                    "path": "<Gamepad>/dpad/left",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Movement",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "right",
-                    "id": "e4b4b5fd-8f47-412d-b051-414ef74f5cea",
-                    "path": "<Gamepad>/dpad/right",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
                     "action": "Movement",
                     "isComposite": false,
                     "isPartOfComposite": true
@@ -377,6 +333,105 @@
                     "action": "Parry",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "WASD",
+                    "id": "fc5f3c1d-d4ea-4e2c-aa80-d97986a172d2",
+                    "path": "2DVector(mode=2)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "WeaponMove",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "6062b5e4-28f3-4957-bd39-9c676900626c",
+                    "path": "<Joystick>/stick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Arcade",
+                    "action": "WeaponMove",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "f16e3bb0-46ef-48d8-b10b-5917ea08de1b",
+                    "path": "<Joystick>/stick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Arcade",
+                    "action": "WeaponMove",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "dee7f997-aff9-4410-9d33-766b55a3f142",
+                    "path": "<Joystick>/stick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Arcade",
+                    "action": "WeaponMove",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "0c2fb638-4413-417d-bf28-741fe3fbae24",
+                    "path": "<Joystick>/stick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Arcade",
+                    "action": "WeaponMove",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "98107fd1-3862-4e39-afd8-f453c27418ba",
+                    "path": "<Gamepad>/leftStick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Arcade",
+                    "action": "WeaponMove",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "up",
+                    "id": "adb66f50-4b15-4b23-ae8a-6b32b268e304",
+                    "path": "<Gamepad>/leftStick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Arcade",
+                    "action": "WeaponMove",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "6557b9b6-1449-4b3e-8468-aeeef926fcdb",
+                    "path": "<Gamepad>/leftStick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Arcade",
+                    "action": "WeaponMove",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "d1f2f633-6c41-40f7-a254-749dd6ee88d9",
+                    "path": "<Gamepad>/leftStick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Arcade",
+                    "action": "WeaponMove",
+                    "isComposite": false,
+                    "isPartOfComposite": true
                 }
             ]
         },
@@ -493,6 +548,11 @@
                     "isOR": false
                 }
             ]
+        },
+        {
+            "name": "Arcade",
+            "bindingGroup": "Arcade",
+            "devices": []
         }
     ]
 }
